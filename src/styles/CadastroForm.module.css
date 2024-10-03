@@ -1,0 +1,20 @@
+body{
+    background: linear-gradient(to right bottom, #00365c, #5cb5f5);
+}
+form{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.formC{
+    background-color: white;
+    padding: 40px;
+    border-radius: 4px;
+}
+.formC p{
+    color: black;
+    font-size: 36px;
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
