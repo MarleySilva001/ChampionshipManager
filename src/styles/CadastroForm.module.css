@@ -1,15 +1,26 @@
-body{
+.bodyCadastro{
     background: linear-gradient(to right bottom, #00365c, #5cb5f5);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 form{
     display: flex;
     gap: 16px;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .formC{
     background-color: white;
     padding: 40px;
     border-radius: 4px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
 }
 .formC p{
     color: black;
@@ -17,4 +28,5 @@ form{
     margin: 0;
     margin-bottom: 25px;
     font-weight: 600;
+    text-align: center;
 }

@@ -4,11 +4,11 @@ import Input from './Input';
 import Button from './Button';
 import { Link } from 'react-router-dom';
 
-const CadastroForm = () =>{
+const LoginForm = () =>{
     return(
         <div className={styles.bodyCadastro}>
         <div className={styles.formC}>
-            <p>Cadastro</p>
+            <p>LOGIN</p>
         <form>
             
             <Input 
@@ -16,21 +16,13 @@ const CadastroForm = () =>{
             type={'text'}
             />
             <Input 
-            placeholder={'Email'}
-            type={'email'}
-            />
-            <Input 
             placeholder={'Senha'}
-            type={'password'}
-            />
-            <Input 
-            placeholder={'Confirme a senha'}
             type={'password'}
             />
             <Link to={'/home'}>
             <Button
             type={'submit'}
-            name={'CADASTRE-SE'}
+            name={'CONFIRMAR'}
             />
             </Link>
         </form>
@@ -39,4 +31,4 @@ const CadastroForm = () =>{
     )
 }
 
-export default CadastroForm;
+export default LoginForm;

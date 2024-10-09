@@ -1,0 +1,12 @@
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    background-color: rgb(73, 75, 209);
+    height: 50px;
+    width: 100vw;
+}

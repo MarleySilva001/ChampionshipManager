@@ -7,7 +7,9 @@ const Cadastro =() =>{
         <>
         <div>
             
-            <CadastroForm />
+            <CadastroForm
+    
+            />
         </div>
         </>
     )
