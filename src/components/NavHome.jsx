@@ -4,9 +4,9 @@ import styles from '../styles/NavHome.module.css'
 const NavHome = () =>{
     return(
             <div className={styles.nav}>
-                <ul>
-                    <li>Meus campeonatos</li>
-                    <li>Novo campeonato</li>
+                <ul className={styles.ul}>
+                    <li>campeonatos</li>
+                    <li>Novo </li>
                     <li>Ranking</li>
                     <li>Recomendações</li>
                 </ul>

@@ -1,11 +1,19 @@
 import React from 'react';
 import styles from '../styles/login.module.css'
 import LoginForm from '../components/LoginForm';
+import { Link } from 'react-router-dom';
 
-const Login = () =>{
-    return(
+const Login = () => {
+    return (
         <>
-        <LoginForm />
+            <div className={styles.body}>
+                
+                <div className={styles.container}>
+                    <p className={styles.titulo}>Login</p>
+                    <LoginForm />
+                    <p>Não tem uma conta?<Link to={'/cadastro'}>Cadastra-se</Link></p>
+                </div>
+            </div>
         </>
     )
 }

@@ -1,12 +1,27 @@
-ul{
+.nav{
+    background-color: #124F7A;
+    height: 50px;
+    width: 100vw;
     display: flex;
-    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.ul{
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
+    height: 100%;
 }
-.nav{
-    background-color: rgb(73, 75, 209);
-    height: 50px;
-    width: 100vw;
-}
+ .ul li{
+    display: flex;
+    color: white;
+    height: 100%;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+ }
+
+ .ul li:hover {
+    background-color: #4A9DD8;
+ }
+

@@ -6,11 +6,7 @@ import { Link } from 'react-router-dom';
 
 const CadastroForm = () =>{
     return(
-        <div className={styles.bodyCadastro}>
-        <div className={styles.formC}>
-            <p>Cadastro</p>
-        <form>
-            
+        <form>  
             <Input 
             placeholder={'Nome'}
             type={'text'}
@@ -34,9 +30,7 @@ const CadastroForm = () =>{
             />
             </Link>
         </form>
-        </div>
-        </div>
-    )
+        )
 }
 
 export default CadastroForm;
