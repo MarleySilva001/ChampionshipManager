@@ -1,0 +1,11 @@
+.CardCamp{
+    background-color: #e0e0e0;
+    height: 270px;
+    width: 270px;
+    border-radius: 10px;
+    margin: 30px;
+    text-align: center;
+}
+.CardCamp p{
+    color: black;
+}

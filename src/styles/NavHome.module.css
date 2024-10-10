@@ -1,10 +1,8 @@
 .nav{
-    background-color: #124F7A;
+    background-color: #133c94;
     height: 50px;
     width: 100vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .ul{
     display: flex;
@@ -12,6 +10,8 @@
     padding: 0;
     margin: 0;
     height: 100%;
+    gap: 20px;
+    margin-left: 50px;
 }
  .ul li{
     display: flex;

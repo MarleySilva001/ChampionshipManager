@@ -5,10 +5,10 @@ const NavHome = () =>{
     return(
             <div className={styles.nav}>
                 <ul className={styles.ul}>
-                    <li>campeonatos</li>
-                    <li>Novo </li>
+                    <li>Meus campeonatos</li>
                     <li>Ranking</li>
                     <li>Recomendações</li>
+                    <li>Novo campeonato </li>
                 </ul>
             </div>
     )

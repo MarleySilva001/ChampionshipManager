@@ -11,7 +11,7 @@ const Login = () => {
                 <div className={styles.container}>
                     <p className={styles.titulo}>Login</p>
                     <LoginForm />
-                    <p>Não tem uma conta?<Link to={'/cadastro'}>Cadastra-se</Link></p>
+                    <p>Não tem uma conta? <Link to={'/cadastro'}>Cadastre-se</Link></p>
                 </div>
             </div>
         </>
