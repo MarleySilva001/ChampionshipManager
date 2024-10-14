@@ -4,7 +4,6 @@ const Footer = () => {
     return (
         <>
             <section className={styles.footer}>
-                <div className={styles.paulo}>
                     <p className={styles.fooTitle}>DESENVOLVIDO POR:</p>
                     <ul className={styles.ulFooter}>
                         <li>Ian Murad <img src="ian.png" alt="oi" /></li>
@@ -15,7 +14,6 @@ const Footer = () => {
                         <li>Pedro Rofmann <img src="pedro.png" alt="oi" /></li>
                     </ul>
                     <p className={styles.copy}>TODOS OS DIREITOS RESERVADOS &copy;</p>
-                </div>
             </section>
         </>
     )

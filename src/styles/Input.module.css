@@ -9,3 +9,10 @@
 .input:focus {
     outline: none;
   }
+
+  @media screen and (max-width: 600px) {
+    .input{
+        height: 34px;
+        font-size: 18px;
+    }
+}

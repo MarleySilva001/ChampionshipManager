@@ -11,7 +11,7 @@ const Cadastro =() =>{
             <div className={styles.container}>
                 <p className={styles.titulo}>Cadastro</p>
                 <CadastroForm />
-                <p>Já tem uma conta? <Link to={'/'}>Conecte-se</Link></p>
+                <p className={styles.temLogin}>Já tem uma conta? <Link to={'/'}>Conecte-se</Link></p>
             </div>
         </div>
     </>

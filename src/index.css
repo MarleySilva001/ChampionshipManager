@@ -24,3 +24,17 @@ P{
   margin: 0px
 }
 
+*::-webkit-scrollbar {
+  width: 8px;
+  opacity: 0.4;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(230, 230, 230);
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(180, 180, 180);
+  border-radius: 20px;
+}

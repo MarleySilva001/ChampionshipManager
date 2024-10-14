@@ -15,3 +15,10 @@ button:hover{
     border: 1.5px solid #00365c;
     color: #ffffff;
     }
+
+    @media screen and (max-width: 600px) {
+        button{
+            height: 40px;
+            font-size: 16px;
+        }
+    }
