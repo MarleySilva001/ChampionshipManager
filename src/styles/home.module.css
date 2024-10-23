@@ -1,5 +1,13 @@
 .homeBody{
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
-    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+.homecard{
+    display: flex;
+}
+.homecard{
+    display: flex;
 }
