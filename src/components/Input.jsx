@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../styles/Input.module.css'
-const Input =({placeholder, type, value, onChange}) =>{
+const Input =({placeholder, type, value, onChange, name}) =>{
     return(
         <>
         <div>
@@ -10,6 +10,7 @@ const Input =({placeholder, type, value, onChange}) =>{
             value={value}
             onChange={onChange}
             type={type}
+            name={name}
             required='true'
             />
         </div>
